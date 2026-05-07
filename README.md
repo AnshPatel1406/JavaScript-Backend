@@ -52,3 +52,45 @@ app.listen(process.env.PORT, () => {
 
 
 // deployment on server is in 2nd video of the series
+
+
+
+
+// using Mongoose 
+
+mongoosejs.com
+
+moon modeler website to model whole schema of our website 
+relation entities attributes etc
+// generates mongoose code after doing the modeling 
+
+
+eraser.io to make // but dosent give mongoose code
+
+
+
+// Dry Run
+
+Register : Email,password,username | register button 
+
+Login : email,password
+
+// like this we need to prepare everything first , later chnages can cause problems 
+
+// Learning Mongoose 
+
+npm i mongoose 
+
+
+go to models folder for more 
+
+
+// demo modeling using mongoose 
+
+import mongoose from "mongoose";
+
+// const todoSchema = new mongoose.Schema({},{timestamps:true})
+const todoSchema = new mongoose.Schema({},{timestamps:true})
+
+
+export const Todo = mongoose.model("Todo",todoSchema) // in mongodb it becomes todos

@@ -14,3 +14,6 @@ in package.json do :
   }
 
 here npm run start will run node index.js
+
+
+now go to expressjs.com and see the hello world code and bring to index.js

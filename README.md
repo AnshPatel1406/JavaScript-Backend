@@ -49,3 +49,6 @@ instead this we write
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${port}`)
 })
+
+
+// deployment on server is in 2nd video of the series

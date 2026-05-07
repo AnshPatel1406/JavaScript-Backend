@@ -1,0 +1,24 @@
+{
+  "name": "javascriptbackend",
+  "version": "1.0.0",
+  "description": "a basic app to deploy",
+  "keywords": [
+    "js",
+    "backend"
+  ],
+  "homepage": "https://github.com/AnshPatel1406/JavaScript-Backend#readme",
+  "bugs": {
+    "url": "https://github.com/AnshPatel1406/JavaScript-Backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnshPatel1406/JavaScript-Backend.git"
+  },
+  "license": "ISC",
+  "author": "Ansh",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start" : "node index.js"
+  }
+}
